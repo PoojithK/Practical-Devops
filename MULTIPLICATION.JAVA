@@ -1,18 +1,22 @@
-import java.util.Scanner;  
-public class MultiplicationExample1  
-{  
-public static void main(String args[])   
-{  
-Scanner sc=new Scanner(System.in);  
-int x, y, sum=0;  
-System.out.print("Enter the first number: ");  
-x=sc.nextInt();  
-System.out.print("Enter the second number: ");  
-y=sc.nextInt();    
-for(int i=1;i<=x;i++)  
-{   
-sum=sum+y;  
-}  
-System.out.println("The multiplication of "+x+" and "+y+" is: "+sum);  
-}  
-}  
+import java.util.Scanner;
+
+public class Demo {
+
+    public static void main(String[] args) {
+
+  
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter first number: ");
+
+        int num1 = scan.nextInt();
+        
+        System.out.print("Enter second number: ");
+        int num2 = scan.nextInt();
+
+        scan.close();
+        
+        int product = num1*num2;
+        
+        System.out.println("Output: "+product);
+    }
+}
