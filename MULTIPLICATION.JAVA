@@ -1,22 +1,11 @@
-import java.util.Scanner;
-
 public class MULTIPLICATION {
-
-    public static void main(String[] args) {
-
-  
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter first number: ");
-
-        int num1 = scan.nextInt();
-        
-        System.out.print("Enter second number: ");
-        int num2 = scan.nextInt();
-
-        scan.close();
-        
-        int product = num1*num2;
-        
-        System.out.println("Output: "+product);
-    }
+   public static void main(String[] args) {
+       int a;
+       int b;
+       int c;
+       a = 5;
+       b = 58;
+       c = a*b; //integer number to keep the result of multiplication
+       System.out.println("5*58 = " + c);
+   }
 }
